@@ -24,6 +24,8 @@
     ],
     "compileOnSave": true,
     "files": [
+        "./lib/index.ts",
+        "./lib/runOptions.ts",
         "./typings/es6/es6.d.ts",
         "./typings/glob/glob.d.ts",
         "./typings/minimatch/minimatch.d.ts",

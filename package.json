@@ -1,6 +1,6 @@
 {
   "name": "markscript-project",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Provides an easy to use command line interface for building and deploying MarkScript projects",
   "main": "dist/lib/index.js",
   "repository": "christyharagan/markscript-project",
@@ -14,54 +14,18 @@
   },
   "keywords": [
     "marklogic",
-    "admin"
+    "markscript",
+    "project"
   ],
   "license": "MIT",
   "dependencies": {
+    "chalk": "^1.1.1",
     "liftoff": "^2.1.0",
-    "marklogic": "^1.0.2",
-    "markscript": "^0.1.0",
-    "systemjs": "^0.18.17",
-    "typescript": "^1.5.3",
+    "lodash": "^3.10.1",
+    "markscript-core": "^0.1.1",
+    "markscript-koa": "^0.1.1",
+    "uservices": "^0.4.0",
+    "sanitize-filename": "^1.4.2",
     "yargs": "^3.22.2"
-  },
-  "devDependencies": {
-    "jspm": "^0.16.2"
-  },
-  "jspm": {
-    "directories": {},
-    "dependencies": {
-      "babel": "npm:babel@^5.8.23",
-      "bluebird": "npm:bluebird@^2.9.34",
-      "fs": "github:jspm/nodelibs-fs@^0.1.2",
-      "glob": "npm:glob@^5.0.14",
-      "http": "github:jspm/nodelibs-http@^1.7.1",
-      "koa": "npm:koa@^1.0.0",
-      "koa-body": "npm:koa-body@^1.2.1",
-      "koa-cors": "npm:koa-cors@^0.0.16",
-      "koa-mount": "npm:koa-mount@^1.3.0",
-      "koa-router": "npm:koa-router@^5.1.2",
-      "koa-rx-router": "npm:koa-rx-router@^0.1.2",
-      "marklogic": "npm:marklogic@1.0.2",
-      "markscript": "npm:markscript@^0.4.2",
-      "markscript-koa": "npm:markscript-koa@^0.1.0",
-      "markscript-uservices": "npm:markscript-uservices@^0.1.0",
-      "ml-admin": "npm:ml-admin@^0.3.0",
-      "path": "github:jspm/nodelibs-path@^0.1.0",
-      "resolve": "npm:resolve@^1.1.6",
-      "rx": "npm:rx@2.5.3",
-      "socket.io": "npm:socket.io@^1.3.6",
-      "socket.io-client": "npm:socket.io-client@^1.3.6",
-      "speckle": "npm:speckle@^0.1.3",
-      "typescript-package": "npm:typescript-package@^0.1.0",
-      "typescript-schema": "npm:typescript-schema@^0.5.0",
-      "uservices": "npm:uservices@^0.4.0",
-      "uservices-socket.io-server": "npm:uservices-socket.io-server@^0.3.0"
-    },
-    "devDependencies": {
-      "babel-runtime": "npm:babel-runtime@^5.8.20",
-      "core-js": "npm:core-js@^1.1.0",
-      "typescript": "npm:typescript@^1.6.0-dev.20150818"
-    }
   }
 }
