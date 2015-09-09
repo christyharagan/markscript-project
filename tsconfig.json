@@ -19,6 +19,7 @@
         "./lib/**/*.ts",
         "./test/**/*.ts",
         "./typings/**/*.d.ts",
+        "./markscript-project.d.ts",
         "./node_modules/ml-typescript-definitions/*.d.ts",
         "./node_modules/typescript/bin/typescript.d.ts"
     ],
@@ -34,6 +35,7 @@
         "./typings/should-promised/should-promised.d.ts",
         "./typings/should/should.d.ts",
         "./typings/tsd.d.ts",
+        "./markscript-project.d.ts",
         "./node_modules/ml-typescript-definitions/client.d.ts",
         "./node_modules/ml-typescript-definitions/server.d.ts",
         "./node_modules/typescript/bin/typescript.d.ts"

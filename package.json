@@ -1,6 +1,6 @@
 {
   "name": "markscript-project",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Provides an easy to use command line interface for building and deploying MarkScript projects",
   "main": "dist/lib/index.js",
   "repository": "christyharagan/markscript-project",
@@ -24,8 +24,9 @@
     "lodash": "^3.10.1",
     "markscript-core": "^0.1.1",
     "markscript-koa": "^0.1.1",
-    "uservices": "^0.4.0",
     "sanitize-filename": "^1.4.2",
+    "typescript": "^1.5.3",
+    "uservices": "^0.4.0",
     "yargs": "^3.22.2"
   }
 }
