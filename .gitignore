@@ -1,6 +1,4 @@
 node_modules
-jspm_packages
-dist
 .tmp
 .DS_Store
 npm-debug.log
