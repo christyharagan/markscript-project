@@ -1,9 +1,7 @@
 {
   "name": "markscript-project",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Provides an easy to use command line interface for building and deploying MarkScript projects",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
   "repository": "christyharagan/markscript-project",
   "author": {
     "name": "Christy Haragan",
@@ -15,13 +13,20 @@
     "markscript",
     "project"
   ],
+  "bin": {
+    "msp": "./bin/msp.js"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.1",
     "liftoff": "^2.1.0",
     "lodash": "^3.10.1",
-    "markscript-core": "^0.3.0",
-    "markscript-koa": "^0.3.0",
+    "markscript-core": "^0.4.0",
+    "markscript-koa": "^0.4.0",
+    "markscript-server": "^0.1.0",
+    "markscript-uservices-server": "^0.1.0",
+    "marklogic-typescript-definitions": "^0.3.0",
+    "typescript-schema": "^0.7.5",
     "sanitize-filename": "^1.4.2",
     "typescript": "^1.6.2",
     "uservices": "^0.6.0",

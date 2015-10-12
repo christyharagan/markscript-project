@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+'use strict'
 var path = require('path')
 var Liftoff = require('liftoff')
 var yargs = require('yargs')
@@ -27,6 +28,7 @@ cli.launch({}, function (env) {
 
   var yargs = require('yargs')
     .usage('Build your MarkScript project.\nUsage: msp <command>')
+    .command('init', 'Initialise a new MarkScript project')
     .command('create', 'Create the server and databases')
     .command('delete', 'Delete the server and databases')
     .command('deploy', 'Deploy the assets to the server and databases')
@@ -56,6 +58,9 @@ cli.launch({}, function (env) {
   buildFile.buildOptions.pkgDir = env.cwd
   var build = new Build(buildFile.buildOptions)
   switch (cmd) {
+    case 'init':
+      init()
+      break
     case 'writeModel':
       writeModel()
       break
@@ -92,6 +97,10 @@ cli.launch({}, function (env) {
       console.log('Unrecognised command: ' + cmd)
       console.log('')
       yargs.showHelp()
+  }
+
+  function init() {
+    // TODO
   }
 
   function writeModel() {
